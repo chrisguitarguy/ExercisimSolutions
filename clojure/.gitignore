@@ -1,0 +1,6 @@
+*_test.clj
+project.clj
+README.md
+.lein*
+.nrepl*
+target
