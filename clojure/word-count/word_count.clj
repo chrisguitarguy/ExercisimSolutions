@@ -1,5 +1,5 @@
 (ns word-count
-  (require [clojure.string :as string]))
+  (:require [clojure.string :as string]))
 
 (defn word-count [input]
   (-> (string/lower-case input)

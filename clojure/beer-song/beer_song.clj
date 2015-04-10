@@ -1,5 +1,5 @@
 (ns beer-song
-  (require [clojure.string :as string]))
+  (:require [clojure.string :as string]))
 
 (def first-line-template "%s of beer on the wall, %s of beer.")
 (def second-line-template "Take %s down and pass it around, %s of beer on the wall.")

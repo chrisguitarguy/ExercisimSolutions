@@ -1,5 +1,5 @@
 (ns anagram
-  (require [clojure.string :as string]))
+  (:require [clojure.string :as string]))
 
 (defn- is-anagram? [original to-check]
   (let [to-check (string/lower-case to-check)]
